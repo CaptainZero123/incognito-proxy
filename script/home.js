@@ -44,7 +44,7 @@ function access(app) {
 
             clearTimeout(app.timeout);
             app.timeout = setTimeout(async () => {
-                const res = await fetch('https://incog.dev/bare/v1/', {
+                const res = await fetch('https://bare.aeroisass.com/v1/', {
                     headers: {
                         'x-bare-host': 'google.com',
                         'x-bare-protocol': 'https:',
